@@ -7,7 +7,7 @@ public class Main {
     static AppUI appUI = new AppUI();
 
     public static void main(String[] args) {
-        BaseUtils.println("\n\n*************** Project: Warehouse search system *****************");
+        BaseUtils.println("\n\n*************** Project: Printed Products warehouse *****************");
         BaseUtils.println("--------------- Author: Iroda Khikmatullaeva ---------------");
         BaseUtils.println("--------------- Email: iroda_khikmatullaeva@student.itpu.uz ---------------");
         BaseUtils.println("--------------- Creation date: since 29/04/23  ---------------");
