@@ -48,3 +48,15 @@ public class NewspaperController implements BaseController {
         BaseUtils.print(BaseUtils.gson.toJson(responseEntity));
     }
 }
+
+public void addNewNewspaper() {
+    BaseUtils.println("Enter newspaper details:");
+}
+
+public void deleteNewspaper() {
+    BaseUtils.println("Enter newspaper ID to delete:");
+}
+
+public void addNewCategory() {
+    BaseUtils.println("Enter new category name:");
+}
