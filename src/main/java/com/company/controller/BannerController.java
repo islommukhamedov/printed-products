@@ -54,3 +54,15 @@ public class BannerController implements BaseController {
         BaseUtils.print(BaseUtils.gson.toJson(responseEntity));
     }
 }
+
+public void addNewBanner() {
+    BaseUtils.println("Enter banner details:");
+}
+
+public void deleteBanner() {
+    BaseUtils.println("Enter banner ID to delete:");
+}
+
+public void addNewCategory() {
+    BaseUtils.println("Enter new category name:");
+}
